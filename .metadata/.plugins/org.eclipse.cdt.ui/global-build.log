@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project new ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project new ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project new ****
+
+make all 
+Building file: ../new/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"new/main.d" -MT"new/main.d" -o "new/main.o" "../new/main.cpp"
+Finished building: ../new/main.cpp
+ 
+Building file: ../BUBBLESO.C
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BUBBLESO.d" -MT"BUBBLESO.d" -o "BUBBLESO.o" "../BUBBLESO.C"
+../BUBBLESO.C:2:18: fatal error: conio.h: No such file or directory
+ #include<conio.h>
+                  ^
+compilation terminated.
+make: *** [BUBBLESO.o] Error 1
+
+**** Build Finished ****

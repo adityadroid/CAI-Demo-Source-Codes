@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+
+public class hackerrankq3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		long x = scan.nextLong();
+		long y=scan.nextLong();
+		long a = scan.nextLong();
+		long b = scan.nextLong();
+		long divx,divy;
+		long k=0,n=0;
+		long smaller = (x-a> y-b) ? y :x;
+		long testx=0,testy=0;
+		while(testx!=x&&testy!=y)
+		{
+			if(smaller==y)
+			{
+			testx= k*a + n*a;
+			testy = k*b - n*b;
+			}
+			else
+			{
+				testx= k*a - n*a;
+				testy = k*b + n*b;
+				
+			}
+			k++;
+			n++;
+		}
+		
+	
+		
+		/* k(a,b) + n (a,b) = (x,y)
+		 * 
+		 * */
+	}
+
+}

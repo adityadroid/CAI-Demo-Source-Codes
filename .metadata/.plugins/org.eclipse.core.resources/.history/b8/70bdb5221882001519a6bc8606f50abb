@@ -1,0 +1,237 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+O_SRCS += \
+../BANK1111.o \
+../Untitled2.o \
+../abvc.o \
+../adi.o \
+../aditya.o \
+../bankc.o \
+../doublyhome.o \
+../friend.o \
+../linked.o \
+../linkedgupta.o \
+../linkedhome.o \
+../linkedlist.o \
+../linkednew.o \
+../linknew.o \
+../linkpr.o \
+../matdel.o \
+../matpat.o \
+../milk.o \
+../nest.o \
+../new.o \
+../newcode.o \
+../newfile.o \
+../newlinked.o \
+../practice\ link.o \
+../sort.o \
+../squarecity.o \
+../srcdggdgd.o \
+../stringnew.o \
+../sxdsff.o \
+../testtt.o 
+
+CPP_SRCS += \
+../Untitled1.cpp \
+../Untitled2.cpp \
+../adi.cpp \
+../aditya.cpp \
+../arr.cpp \
+../bank.cpp \
+../bfhgh.cpp \
+../bgfg.cpp \
+../ddddddddd.cpp \
+../friend.cpp \
+../matdel.cpp \
+../matpat.cpp \
+../nest.cpp \
+../new.cpp \
+../newcode.cpp \
+../newfile.cpp \
+../sdfvbg.cpp \
+../sdnhfkogh.cpp \
+../sort.cpp \
+../squarecity.cpp \
+../srcdggdgd.cpp \
+../stringnew.cpp \
+../sxdsff.cpp \
+../vdfvgfdbv.cpp 
+
+C_UPPER_SRCS += \
+../BUBBLESO.C 
+
+C_SRCS += \
+../Untitled1.c \
+../Untitled3.c \
+../abcfd.c \
+../abvc.c \
+../bankc.c \
+../ddd.c \
+../dfoefkowrekreogkre.c \
+../doublyhome.c \
+../fffc.c \
+../fgdgfh.c \
+../gfg.c \
+../kchgfffss.c \
+../linked.c \
+../linkedgupta.c \
+../linkedhome.c \
+../linkedlist.c \
+../linkednew.c \
+../linknew.c \
+../linkpr.c \
+../llllllll.c \
+../main.c \
+../milk.c \
+../newlinked.c \
+../practice\ link.c \
+../singlylinklist.c \
+../std.c \
+../testtt.c 
+
+OBJS += \
+./BUBBLESO.o \
+./Untitled1.o \
+./Untitled2.o \
+./Untitled3.o \
+./abcfd.o \
+./abvc.o \
+./adi.o \
+./aditya.o \
+./arr.o \
+./bank.o \
+./bankc.o \
+./bfhgh.o \
+./bgfg.o \
+./ddd.o \
+./ddddddddd.o \
+./dfoefkowrekreogkre.o \
+./doublyhome.o \
+./fffc.o \
+./fgdgfh.o \
+./friend.o \
+./gfg.o \
+./kchgfffss.o \
+./linked.o \
+./linkedgupta.o \
+./linkedhome.o \
+./linkedlist.o \
+./linkednew.o \
+./linknew.o \
+./linkpr.o \
+./llllllll.o \
+./main.o \
+./matdel.o \
+./matpat.o \
+./milk.o \
+./nest.o \
+./new.o \
+./newcode.o \
+./newfile.o \
+./newlinked.o \
+./practice\ link.o \
+./sdfvbg.o \
+./sdnhfkogh.o \
+./singlylinklist.o \
+./sort.o \
+./squarecity.o \
+./srcdggdgd.o \
+./std.o \
+./stringnew.o \
+./sxdsff.o \
+./testtt.o \
+./vdfvgfdbv.o 
+
+C_DEPS += \
+./Untitled1.d \
+./Untitled3.d \
+./abcfd.d \
+./abvc.d \
+./bankc.d \
+./ddd.d \
+./dfoefkowrekreogkre.d \
+./doublyhome.d \
+./fffc.d \
+./fgdgfh.d \
+./gfg.d \
+./kchgfffss.d \
+./linked.d \
+./linkedgupta.d \
+./linkedhome.d \
+./linkedlist.d \
+./linkednew.d \
+./linknew.d \
+./linkpr.d \
+./llllllll.d \
+./main.d \
+./milk.d \
+./newlinked.d \
+./practice\ link.d \
+./singlylinklist.d \
+./std.d \
+./testtt.d 
+
+CPP_DEPS += \
+./Untitled1.d \
+./Untitled2.d \
+./adi.d \
+./aditya.d \
+./arr.d \
+./bank.d \
+./bfhgh.d \
+./bgfg.d \
+./ddddddddd.d \
+./friend.d \
+./matdel.d \
+./matpat.d \
+./nest.d \
+./new.d \
+./newcode.d \
+./newfile.d \
+./sdfvbg.d \
+./sdnhfkogh.d \
+./sort.d \
+./squarecity.d \
+./srcdggdgd.d \
+./stringnew.d \
+./sxdsff.d \
+./vdfvgfdbv.d 
+
+C_UPPER_DEPS += \
+./BUBBLESO.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+%.o: ../%.C
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C++ Compiler'
+	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+%.o: ../%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+%.o: ../%.cpp
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C++ Compiler'
+	g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+practice\ link.o: ../practice\ link.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GCC C Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"practice link.d" -MT"practice\ link.d" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

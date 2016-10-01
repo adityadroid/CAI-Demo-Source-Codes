@@ -1,0 +1,23 @@
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class mainclass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			System.out.println("Hello world");
+			//Scanner scn = new Scanner(System.in);
+		//	Double x= scn.nextDouble();
+			Random dice= new Random();
+			for(int i=0;i<10;i++)
+			{
+			System.out.println(dice.nextInt(6));
+			}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Price&apos; into R.string.price" description="Extracts string &apos;Price&apos; into R.string.price" file="/ExpenseManager/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/ExpenseManager" rplc-all-java="false" rplc-all-xml="false" sel-end="835" sel-start="816" stamp="1447654337163" tok-esc="Price" xml-attr-name="android:hint"/>
+</session>

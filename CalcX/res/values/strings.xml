@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">" Calc X"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dwdw">1</string>
+    <string name="wqeq">2</string>
+    <string name="wedwf">3</string>
+    <string name="wfcsdv">4</string>
+    <string name="dwdv">5</string>
+    <string name="nhnhg">6</string>
+    <string name="cvxcx">7</string>
+    <string name="xvdfx">8</string>
+    <string name="nhgmjh">9</string>
+    <string name="gdfhgrdhb">0</string>
+    <string name="cvvdvb">.</string>
+    <string name="fddvfx">*</string>
+    <string name="dsczzcx">CLR</string>
+    <string name="CZCVFw">/</string>
+    <string name="fgrethyt">-</string>
+    <string name="grthytjt">+</string>
+    <string name="cfdbhgn">=</string>
+    <string name="hgthjgn">BCK</string>
+    <string name="gfdhgfdnhgfjn">/</string>
+    <string name="vdsvxzc">*</string>
+
+</resources>

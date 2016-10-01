@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalC +</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="res1">5</string>
+    <string name="res2">+</string>
+    <string name="res4">6</string>
+    <string name="res34">+</string>
+    <string name="dssd">3</string>
+    <string name="sd">1`</string>
+    <string name="sdd">2</string>
+    <string name="weq">4</string>
+    <string name="we">5</string>
+    <string name="gf">6</string>
+    <string name="dfs">7</string>
+    <string name="nbg">8</string>
+    <string name="nb">9</string>
+    <string name="gfdhg">+</string>
+    <string name="gfsd">-</string>
+    <string name="gvfd">0</string>
+    <string name="PKJDSAP">+</string>
+    <string name="frwef">-</string>
+    <string name="cdv">/</string>
+    <string name="gfdg">x</string>
+    <string name="gfdgv">=</string>
+    <string name="dfsgfds">/</string>
+    <string name="dsfd">CLEAR</string>
+
+</resources>

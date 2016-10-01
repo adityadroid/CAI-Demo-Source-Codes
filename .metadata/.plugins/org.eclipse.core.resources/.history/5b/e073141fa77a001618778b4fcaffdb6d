@@ -1,0 +1,145 @@
+import java.util.Scanner;
+
+
+public class hackerrank {
+
+	
+
+	
+
+	    public static void main(String[] args) {
+
+	        Scanner scan = new Scanner(System.in);
+	        int n= scan.nextInt();
+	        String[] matrix = new String[n];
+	        for(int i =0;i<n;i++)
+	        {
+	        	
+	        		matrix[i]= scan.next();
+	        	
+	        }
+	        
+//	        
+//	        for(int i =0;i<n;i++)
+//	        {
+//	        	System.out.println(matrix[i]);
+//	        	
+//	        	
+//	        }\
+	        int verticalCount =0;
+	        int horizontalCount=0;
+	        int rowMarker = 0,colMarker=0;
+	        int startVert=0, startHorz=0;
+	        for(int i =0;i<n;i++)
+	        {
+	        	
+	        	int curCount[]= new int[matrix[i].length()];
+	        	int pointer=0;
+
+	        for(int j=0;j<matrix[i].length();j++)
+	        {
+	        	if(matrix[i].charAt(j)=='.')
+	        	{
+	        		curCount[pointer]++;
+	        	}
+	        	else if(matrix[i].charAt(j)=='*')
+	        	{
+	        		
+	        		pointer++;
+	        		
+	        	}
+	        	
+	        	for(int x=0;x<matrix[i].length();x++)
+	        	{
+
+		        	if(curCount[x]>horizontalCount)
+		        	{
+		        		rowMarker=i;
+		        		startHorz=j-curCount[x];
+		        		horizontalCount=curCount[x];
+		        	}
+	        	}
+	        	
+	        	
+	        }
+	        
+	        	
+	        }
+	        
+	        
+	        
+	        
+	        for(int i =0;i<n;i++)
+	        {
+	        	int curCount[]= new int[n];
+	        	int pointer=0;
+
+	        for(int j=0;j<n;j++)
+	        {
+	        	if(matrix[j].charAt(i)=='.')
+	        	{
+	        		curCount[pointer]++;
+	        	}
+	        	else if(matrix[j].charAt(i)=='*')
+	        	{
+	        		
+	        		pointer++;
+	        		
+	        	}
+	        	
+	        	for(int x=0;x<n;x++)
+	        	{
+
+		        	if(curCount[x]>verticalCount)
+		        	{
+		        		colMarker=i;
+		        		startVert=j-curCount[x];
+		        		verticalCount=curCount[x];
+		        	}
+	        	}
+	        	
+	        	
+	        }
+	        
+	        	
+	        }
+	        
+	        
+	        
+	        
+	      //rowMarker horizontalCount
+	        boolean travHorz=true;
+	      
+	        if(verticalCount>horizontalCount)
+	        {
+	        	
+	        	travHorz=false;
+	        }
+	        if(travHorz)
+	        {
+	        	
+	        	int middle = (horizontalCount-startHorz)/2;
+	        	
+	        	System.out.println("midhor:"+middle);
+	        	
+	        }
+	        else
+	        {
+	        
+	        	int middle = (verticalCount-startVert)/2;
+	        	System.out.println("midver:"+middle);
+
+	        	
+	        }
+	        
+	        
+	        
+	        
+	        
+	        System.out.println(horizontalCount);
+	        
+	        System.out.println(verticalCount);
+
+	    }
+	}
+
